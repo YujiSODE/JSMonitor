@@ -8,7 +8,7 @@
 //the input log monitoring interface with JavaScript
 //color='R,G,B,alpha', and every value is between 0 and 255
 //it returns function that draws a graph at 1 px
-//available format for returned function: function([value(, ..., value)]); value is an array of sc@tag@v
+//available format for returned function: function(['sc@tag@v' (, ..., 'sc@tag@v')])
 //sc, tag, and v are scale, tag (e.g., timestamp), and given numerical value, respectively. the given value is shown as "v*sc" in graph
 function _JSMonitor(color){
   //============================================================================
@@ -55,7 +55,7 @@ function _JSMonitor(color){
   r=_c0.parentNode.removeChild(_c0),r=null;
   //</image for graph>
   //================== <returned function; draws a graph at 1 px> =================
-  //available format: function([value(, ..., value)]); value is an array of sc@tag@v
+  //available format: function: function(['sc@tag@v' (, ..., 'sc@tag@v')])
   //sc, tag, and v are scale, tag (e.g., timestamp), and given numerical value, respectively. the given value is shown as "v*sc" in graph
   return function(V){var _v,i=0,n=V.length,log=slf.document.getElementById(resIp.id),grph=slf.document.getElementById(divGrph.id);log.value+=V.join(',')+'\n';while(i<n){_v=V[i].split(/@/),grph.innerHTML+='<img src='+_ul+' width=1 height='+_v[2]*_v[0]+'>',i+=1;}};
   //===============================================================================
