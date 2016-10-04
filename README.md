@@ -17,7 +17,7 @@ ______
 `['sc@tag@v'(, ..., 'sc@tag@v')]`  
 where `sc`, `tag`, and `v` are scale, tag (e.g., timestamp), and given numerical value, respectively. the given value is shown as "v\*sc" in graph
 
-##Example
+##Example with JavaScript
 `/*red graph*/`  
 `var Y=_JSMonitor('255,0,0,255');`  
 `for(var i=0;i<100;i+=1){`  
