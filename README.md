@@ -16,3 +16,8 @@ ______
 * the available data format for the function returned by `_JSMonitor(color)` is as follows:  
 `['sc@tag@v'(, ..., 'sc@tag@v')]`  
 where `sc`, `tag`, and `v` are scale, tag (e.g., timestamp), and given numerical value, respectively. the given value is shown as "v\*sc" in graph
+
+##Example
+`/*Red*/`
+`var Y=_JSMonitor('255,0,0,255');`  
+``
