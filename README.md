@@ -9,3 +9,7 @@ ______
 
 ##Script
 * JSMonitor.js
+
+##How to use
+* call `_JSMonitor(color)` whith color='R,G,B,alpha' and every value is between 0 and 255.
+* `_JSMonitor(color)` creates interface for data log, and retuns a function to be used as a data input.
