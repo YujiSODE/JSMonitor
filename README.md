@@ -20,6 +20,8 @@ where `sc`, `tag`, and `v` are scale, tag (e.g., timestamp), and given numerical
 ####_Interface_
 * __"Log";__ it shows data log.
 * __"Clear" button;__ it clears the current graph and data log.
+* __"Email address":__ email address used outputting __"Log"__ as email format.
+* __"Output as email" button;__ it saves the __"Log"__ as email to given address.
 
 ##Example with JavaScript
 `/*red graph*/`  
