@@ -18,7 +18,8 @@ ______
 where `sc`, `tag`, and `v` are scale, tag (e.g., timestamp), and given numerical value, respectively. the given value is shown as "v\*sc" in graph
 
 ####_Interface_
-* __"":__ the target ~.
+* __"Log";__ it shows data log.
+* __"Clear" button;__ it clears the current graph and data log.
 
 ##Example with JavaScript
 `/*red graph*/`  
