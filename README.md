@@ -18,6 +18,18 @@ ______
 where `sc`, `tag`, and `v` are scale, tag (e.g., timestamp), and given numerical value, respectively. the given value is shown as "v\*sc" in graph
 
 ##Example
-`/*Red*/`
+`/*red graph*/`  
 `var Y=_JSMonitor('255,0,0,255');`  
-``
+`for(var i=0;i<100;i+=1){`  
+`    Y(['1@'+i+'test@'+100*Math.random()]);`  
+`}`  
+`/*green graph*/`  
+`var Y=_JSMonitor('0,255,0,255');`  
+`for(var i=0;i<100;i+=1){`  
+`    Y(['0.5@'+i+'test@'+100*Math.random()]);`  
+`}`  
+`/*blue graph*/`  
+`var Y=_JSMonitor('0,0,255,255');`  
+`for(var i=0;i<10;i+=1){`  
+`    Y(['1@arrayTest@50','1@arrayTest@100','1@arrayTest@150','1@arrayTest@200','1@arrayTest@250','1@arrayTest@300']);`  
+`}`  
