@@ -31,5 +31,5 @@ where `sc`, `tag`, and `v` are scale, tag (e.g., timestamp), and given numerical
 `/*blue graph*/`  
 `var Y=_JSMonitor('0,0,255,255');`  
 `for(var i=0;i<10;i+=1){`  
-`    Y(['1@arrayTest@50','1@arrayTest@100','1@arrayTest@150','1@arrayTest@200','1@arrayTest@250','1@arrayTest@300']);`  
+`    Y(['1@arrayTest@0','1@arrayTest@50','1@arrayTest@80','1@arrayTest@110','1@arrayTest@140','1@arrayTest@170']);`  
 `}`  
