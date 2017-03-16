@@ -7,23 +7,23 @@ https://github.com/YujiSODE/JSMonitor
 >See LICENSE.txt or http://opensource.org/licenses/mit-license.php
 ______
 
-##Script
+## Script
 * JSMonitor.js
 
-##How to use
+## How to use
 * call `_JSMonitor(color)` with color='R,G,B,alpha' and every value is between 0 and 255.
 * `_JSMonitor(color)` creates interface for data log, and retuns a function to be used as a data input.
 * the available data format for the function returned by `_JSMonitor(color)` is as follows:  
 `['sc@tag@v'(, ..., 'sc@tag@v')]`  
 where `sc`, `tag`, and `v` are scale, tag (e.g., timestamp), and given numerical value, respectively. the given value is shown as "v\*sc" in graph
 
-####_Interface_
+#### _Interface_
 * __"Log";__ it shows data log.
 * __"Clear" button;__ it clears the current graph and data log.
 * __"Email address":__ email address used outputting __"Log"__ as email format.
 * __"Output as email" button;__ it saves the __"Log"__ as email to given address.
 
-##Example with JavaScript
+## Example with JavaScript
 `/*red graph*/`  
 `var Y=_JSMonitor('255,0,0,255');`  
 `for(var i=0;i<100;i+=1){`  
